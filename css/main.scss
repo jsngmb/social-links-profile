@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+:root {
+    --primary:'Inter';
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+body {
+    margin: 0;
+    background: hsl(0, 0%, 8%) !important;
+    font-family: var(--primary) !important;
+}
+//Primary 
+
+main {
+     position: absolute;               
+     top: 50%;      
+     left: 50%;
+     transform: translate(-50%, -50%);
+    .card {
+        width: 20em;
+        margin: auto;
+        background-color: hsl(0, 0%, 12%);
+
+        .card-body {
+            margin-top: 1em;
+            color: hsl(0, 0%, 100%);
+            h1 {
+                font-size: 25px;
+                font-weight: var(--fw-700) !important;
+            }
+            h2 {
+                color: hsl(75, 94%, 57%);
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .card-img-top {
+            width: 5em;
+            margin: auto;
+        }
+        .links {
+            .btn {
+                display: block;
+                margin-bottom: 1em;
+                background-color: hsl(0, 0%, 20%);
+                color: hsl(0, 0%, 100%);
+                font-weight: bold;
+            }
+        }
+    }
+}
+.attribution {
+    color: hsl(0, 0%, 100%);
+}
